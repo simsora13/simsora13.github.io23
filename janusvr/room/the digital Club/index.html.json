@@ -1,0 +1,226 @@
+{
+    "FireBoxRoom": {
+        "Assets": {
+            "AssetImage": [
+                {
+                    "id": "Pikachu_img",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "https://media.giphy.com/media/31vamYdZV5ISQ/giphy.gif",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "Grillby1_img",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://pre03.deviantart.net/45a4/th/pre/f/2015/340/c/6/grillby_by_wingedtank-d9j88p0.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "Agumon_img",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://i971.photobucket.com/albums/ae193/DigitalDestinyClan/Digimon%20and%20Icon%20Sprites/Agumon.gif~original",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "dgp3_img",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://iambrony.steeph.tp-radio.de/mlp/gif/629261__safe_solo_animated_smile_cute_vinyl+scratch_upvotes+galore_dj+pon-dash-3_sitting_grin.gif",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "Gatomon_img",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://i971.photobucket.com/albums/ae193/DigitalDestinyClan/Digimon%20and%20Icon%20Sprites/Gatomon.gif~original",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "thumb8",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/20161122104640/thumb.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "Vocaloid_img",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://www.j-subculture.com/img/files/image/so/hatsune%20miku%204.gif",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "thumb9",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/20161122104640 - Copy/thumb.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                }
+            ],
+            "AssetObject": [
+                {
+                    "id": "Plane.004",
+                    "mtl": "Plane.004.mtl",
+                    "src": "Plane.004.obj"
+                },
+                {
+                    "id": "Plane.018",
+                    "mtl": "Plane.018.mtl",
+                    "src": "Plane.018.obj"
+                },
+                {
+                    "id": "Plane.016",
+                    "mtl": "Plane.016.mtl",
+                    "src": "Plane.016.obj"
+                }
+            ],
+            "AssetWebSurface": [
+                {
+                    "height": 1080,
+                    "id": "google",
+                    "src": "https://www.youtube.com/watch?v=3XhLbJ5sJSs",
+                    "width": 1920
+                }
+            ]
+        },
+        "Room": {
+            "Image": [
+                {
+                    "id": "Grillby1_img",
+                    "js_id": "1",
+                    "pos": "-4 1 14.5",
+                    "scale": "0.4 0.4 1"
+                },
+                {
+                    "id": "Pikachu_img",
+                    "js_id": "2",
+                    "pos": "2 0.5 1",
+                    "scale": "0.75 0.75 1",
+                    "xdir": "0 0 1",
+                    "zdir": "-1 0 0"
+                },
+                {
+                    "id": "dgp3_img",
+                    "js_id": "3",
+                    "pos": "6 0.8 1.7",
+                    "xdir": "0 0 1",
+                    "zdir": "-1 0 0"
+                },
+                {
+                    "id": "Vocaloid_img",
+                    "js_id": "4",
+                    "pos": "-4 1 4",
+                    "xdir": "0 0 1",
+                    "zdir": "-1 0 0"
+                },
+                {
+                    "id": "Agumon_img",
+                    "js_id": "5",
+                    "pos": "4 0.5 14"
+                },
+                {
+                    "id": "Gatomon_img",
+                    "js_id": "6",
+                    "pos": "3 0.5 14"
+                }
+            ],
+            "Link": [
+                {
+                    "col": "#00ffff",
+                    "js_id": "0",
+                    "pos": "-7.9 -0.1 11.6",
+                    "scale": "1.9 2.9 1",
+                    "url": "https://simsora13.github.io/janusvr/room/mypark/index.html",
+                    "xdir": "0.000001 0 -1",
+                    "zdir": "1 0 0.000001"
+                }
+            ],
+            "Object": [
+                {
+                    "collider_id": "",
+                    "collision_id": "Plane.016",
+                    "id": "Plane.016",
+                    "js_id": "7",
+                    "lighting": false,
+                    "pos": "5.4 0 0.6"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "Plane.018",
+                    "id": "Plane.018",
+                    "js_id": "8",
+                    "lighting": false,
+                    "pos": "2.7 2.3 16",
+                    "xdir": "1 -0.000001 0",
+                    "ydir": "0.000001 1 0"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "plane",
+                    "id": "plane",
+                    "js_id": "Striking_Lurking_ben-0-1479834344",
+                    "pos": "1.095418 0 -2.322089",
+                    "xdir": "0.99944 -0 0.033446",
+                    "ydir": "-0.031718 0.317307 0.947792",
+                    "zdir": "-0.010613 -0.948323 0.317129"
+                },
+                {
+                    "collider_id": "",
+                    "id": "plane",
+                    "js_id": "9",
+                    "pos": "4.5 2 0.1",
+                    "scale": "2 1.2 1",
+                    "websurface_id": "google",
+                    "xdir": "1 -0.000001 0",
+                    "ydir": "0.000001 1 0"
+                }
+            ],
+            "fog_col": "#cccccc",
+            "fog_density": 0.20000000298023224,
+            "fog_end": 100,
+            "fog_start": 1,
+            "near_dist": 0.0024999999441206455,
+            "pos": "0 0 0",
+            "teleport_min_dist": 5,
+            "use_local_asset": "room_plane",
+            "visible": false,
+            "xdir": "1 0 0",
+            "ydir": "0 1 0",
+            "zdir": "0 0 1"
+        }
+    }
+}
