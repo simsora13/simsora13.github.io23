@@ -3,11 +3,22 @@
         "Assets": {
             "AssetImage": [
                 {
-                    "id": "achhd",
+                    "id": "su1",
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
-                    "src": "http://animalcrossingworld.com/wp-content/uploads/2015/08/gamestop-happy-home-designer-poster.jpg",
+                    "src": "http://i.imgur.com/F372vIk.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "mimikyu",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://play.pokemonshowdown.com/sprites/xyani/mimikyu.gif",
                     "tex_clamp": false,
                     "tex_compress": false,
                     "tex_linear": true,
@@ -18,7 +29,40 @@
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
-                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/ben/thumb.jpg",
+                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/benhouse/thumb.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "toy1",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://cdn.bulbagarden.net/upload/c/c0/Spr_5b_571.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "yn",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/Madotsuki2.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "su",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/STEVENUNIVERSEmi.jpg",
                     "tex_clamp": false,
                     "tex_compress": false,
                     "tex_linear": true,
@@ -47,44 +91,11 @@
                     "tex_mipmap": true
                 },
                 {
-                    "id": "su",
-                    "ou3d": false,
-                    "reverse3d": false,
-                    "sbs3d": false,
-                    "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/STEVENUNIVERSEmi.jpg",
-                    "tex_clamp": false,
-                    "tex_compress": false,
-                    "tex_linear": true,
-                    "tex_mipmap": true
-                },
-                {
                     "id": "dh",
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
                     "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/digiHearts.jpg",
-                    "tex_clamp": false,
-                    "tex_compress": false,
-                    "tex_linear": true,
-                    "tex_mipmap": true
-                },
-                {
-                    "id": "yn",
-                    "ou3d": false,
-                    "reverse3d": false,
-                    "sbs3d": false,
-                    "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/Madotsuki2.png",
-                    "tex_clamp": false,
-                    "tex_compress": false,
-                    "tex_linear": true,
-                    "tex_mipmap": true
-                },
-                {
-                    "id": "ikd",
-                    "ou3d": false,
-                    "reverse3d": false,
-                    "sbs3d": false,
-                    "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/inkDragon.jpg",
                     "tex_clamp": false,
                     "tex_compress": false,
                     "tex_linear": true,
@@ -100,28 +111,87 @@
                     "tex_compress": false,
                     "tex_linear": true,
                     "tex_mipmap": true
+                },
+                {
+                    "id": "kk",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://i.imgur.com/AVIvXGG.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "umbreon",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://play.pokemonshowdown.com/sprites/xyani/umbreon.gif",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "achhd",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://animalcrossingworld.com/wp-content/uploads/2015/08/gamestop-happy-home-designer-poster.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "toy2",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "http://cdn.bulbagarden.net/upload/f/f2/Spr_4d_448.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "ikd",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "https://raw.githubusercontent.com/simsora13/simsora13.github.io/master/janusvr/pictures/inkDragon.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
                 }
             ],
             "AssetObject": [
                 {
-                    "id": "fennekin",
-                    "src": "fennekin.dae"
-                },
-                {
                     "id": "computrerarea",
                     "src": "computrerarea.dae"
-                },
-                {
-                    "id": "geometry",
-                    "src": "wallsfloors.dae"
                 },
                 {
                     "id": "f",
                     "src": "f.dae"
                 },
                 {
+                    "id": "geometry",
+                    "src": "wallsfloors3.dae"
+                },
+                {
+                    "id": "fennekin",
+                    "src": "fennekin.dae"
+                },
+                {
                     "id": "QmUfgDKqF2uzGv73aaefTV5THXG93bC9L8Dw71Y7yqESCc",
                     "src": "http://ipfs.io/ipfs/QmUfgDKqF2uzGv73aaefTV5THXG93bC9L8Dw71Y7yqESCc?.fbx"
+                },
+                {
+                    "id": "nl",
+                    "src": "computrerarea.dae"
                 }
             ],
             "AssetWebSurface": [
@@ -130,6 +200,12 @@
                     "id": "google",
                     "src": "https://www.google.com",
                     "width": 1920
+                },
+                {
+                    "height": 720,
+                    "id": "cyc",
+                    "src": "http://cryptid-creations.tumblr.com/",
+                    "width": 720
                 }
             ]
         },
@@ -154,8 +230,17 @@
                     "zdir": "1 0 0"
                 },
                 {
-                    "id": "pp",
+                    "id": "kk",
                     "js_id": "2",
+                    "lighting": false,
+                    "pos": "6.8 1 7.5",
+                    "scale": "5 5 0.1",
+                    "xdir": "0 0 -1",
+                    "zdir": "1 0 0"
+                },
+                {
+                    "id": "pp",
+                    "js_id": "3",
                     "lighting": false,
                     "pos": "1.66 1.93 6.07",
                     "scale": "0.12 0.12 0.1",
@@ -164,15 +249,39 @@
                 },
                 {
                     "id": "1",
-                    "js_id": "3",
+                    "js_id": "4",
                     "pos": "2.2 2 6",
                     "scale": "0.3 0.3 0.1",
                     "xdir": "0 0 -1",
                     "zdir": "1 0 0"
                 },
                 {
+                    "id": "toy1",
+                    "js_id": "5",
+                    "pos": "5.7 1.46 4.6",
+                    "scale": "0.1 0.1 0.1",
+                    "xdir": "-0.34202 0 -0.939693",
+                    "zdir": "0.939693 0 -0.34202"
+                },
+                {
+                    "id": "toy2",
+                    "js_id": "6",
+                    "pos": "5.68 1.46 4.44",
+                    "scale": "0.1 0.1 0.2",
+                    "xdir": "0 0 -1",
+                    "zdir": "1 0 0"
+                },
+                {
+                    "id": "su1",
+                    "js_id": "7",
+                    "pos": "5.68 1.46 4.44",
+                    "scale": "0.1 0.1 0.2",
+                    "xdir": "0 0 -1",
+                    "zdir": "1 0 0"
+                },
+                {
                     "id": "yn",
-                    "js_id": "4",
+                    "js_id": "8",
                     "pos": "5.91 1.7 4.8",
                     "scale": "0.4 0.4 0.1",
                     "xdir": "0 0 -1",
@@ -180,7 +289,7 @@
                 },
                 {
                     "id": "achhd",
-                    "js_id": "5",
+                    "js_id": "9",
                     "lighting": false,
                     "pos": "1.66 2 6.75",
                     "scale": "0.16 0.16 0.1",
@@ -188,16 +297,32 @@
                     "zdir": "1 0 0"
                 },
                 {
+                    "id": "umbreon",
+                    "js_id": "10",
+                    "pos": "-4.5 0.7 3.4",
+                    "scale": "0.4 0.4 0.1",
+                    "xdir": "0 0 -1",
+                    "zdir": "1 0 0"
+                },
+                {
                     "id": "ikd",
-                    "js_id": "6",
+                    "js_id": "11",
                     "pos": "1.7 1.8 5.4",
                     "scale": "0.4 0.4 0.1",
                     "xdir": "0 0 -1",
                     "zdir": "1 0 0"
                 },
                 {
+                    "id": "mimikyu",
+                    "js_id": "12",
+                    "pos": "4.31 0.2 7.4",
+                    "scale": "0.14 0.14 0.1",
+                    "xdir": "0.766044 0 -0.642788",
+                    "zdir": "0.642788 0 0.766044"
+                },
+                {
                     "id": "dh",
-                    "js_id": "7",
+                    "js_id": "13",
                     "lighting": false,
                     "pos": "2.7 1.3 4.23",
                     "scale": "0.2 0.2 0.02"
@@ -208,7 +333,7 @@
                     "collider_id": "",
                     "collision_id": "geometry",
                     "id": "geometry",
-                    "js_id": "8",
+                    "js_id": "14",
                     "lighting": false,
                     "xdir": "1 0 -0.000002",
                     "zdir": "0.000002 0 1"
@@ -217,23 +342,24 @@
                     "collider_id": "",
                     "collision_id": "f",
                     "id": "f",
-                    "js_id": "9",
+                    "js_id": "15",
                     "xdir": "1 0 -0.000002",
                     "zdir": "0.000002 0 1"
                 },
                 {
                     "collider_id": "",
-                    "collision_id": "computrerarea",
-                    "id": "computrerarea",
-                    "js_id": "10",
-                    "xdir": "1 0 -0.000007",
-                    "zdir": "0.000007 0 1"
+                    "collision_id": "nl",
+                    "id": "nl",
+                    "js_id": "16",
+                    "lighting": false,
+                    "xdir": "1 0 -0.000002",
+                    "zdir": "0.000002 0 1"
                 },
                 {
                     "collider_id": "",
                     "collision_id": "fennekin",
                     "id": "fennekin",
-                    "js_id": "11",
+                    "js_id": "17",
                     "lighting": false,
                     "pos": "0.8 0.6 9.089999",
                     "xdir": "-0.00001 0 -1",
@@ -243,7 +369,7 @@
                     "collider_id": "",
                     "collision_id": "plane",
                     "id": "plane",
-                    "js_id": "12",
+                    "js_id": "18",
                     "lighting": false,
                     "pos": "-3.65 1.5 7.8",
                     "scale": "1.5 1 1",
@@ -253,8 +379,19 @@
                 },
                 {
                     "collider_id": "",
+                    "collision_id": "plane",
+                    "id": "plane",
+                    "js_id": "19",
+                    "lighting": false,
+                    "pos": "0.5 1.5 7.8",
+                    "websurface_id": "cyc",
+                    "xdir": "-1 0 0",
+                    "zdir": "0 0 -1"
+                },
+                {
+                    "collider_id": "",
                     "id": "QmUfgDKqF2uzGv73aaefTV5THXG93bC9L8Dw71Y7yqESCc",
-                    "js_id": "13",
+                    "js_id": "20",
                     "pos": "-2.571084 -0.195618 -0.830023"
                 },
                 {
