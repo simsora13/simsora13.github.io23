@@ -1,7 +1,24 @@
 {
     "FireBoxRoom": {
         "Assets": {
+            "AssetGhost": [
+                {
+                    "id": "ghostfox",
+                    "src": "ghostfox (2).txt"
+                }
+            ],
             "AssetImage": [
+                {
+                    "id": "thumb3",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/lobby/thumb.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
                 {
                     "id": "mandala",
                     "ou3d": false,
@@ -14,22 +31,22 @@
                     "tex_mipmap": true
                 },
                 {
-                    "id": "the digital Club",
+                    "id": "__CUBEMAP_IRRADIANCE",
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
-                    "src": "https://simsora13.github.io/janusvr/pictures/thumb/the digital Club.jpg",
-                    "tex_clamp": false,
+                    "src": "./7129027704126752994_cubemap_irradiance64.dds",
+                    "tex_clamp": true,
                     "tex_compress": false,
                     "tex_linear": true,
                     "tex_mipmap": true
                 },
                 {
-                    "id": "YumeNikkiFluteRoom",
+                    "id": "the digital Club",
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
-                    "src": "https://simsora13.github.io/janusvr/pictures/thumb/YumeNikkiFluteRoom.jpg",
+                    "src": "https://simsora13.github.io/janusvr/pictures/thumb/the digital Club.jpg",
                     "tex_clamp": false,
                     "tex_compress": false,
                     "tex_linear": true,
@@ -47,44 +64,22 @@
                     "tex_mipmap": true
                 },
                 {
-                    "id": "__CUBEMAP_RADIANCE",
+                    "id": "YumeNikkiFluteRoom",
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
-                    "src": "./7129027704126752994_cubemap_radiance256.dds",
-                    "tex_clamp": true,
-                    "tex_compress": false,
-                    "tex_linear": true,
-                    "tex_mipmap": true
-                },
-                {
-                    "id": "thumb3",
-                    "ou3d": false,
-                    "reverse3d": false,
-                    "sbs3d": false,
-                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/lobby/thumb.jpg",
+                    "src": "https://simsora13.github.io/janusvr/pictures/thumb/YumeNikkiFluteRoom.jpg",
                     "tex_clamp": false,
                     "tex_compress": false,
                     "tex_linear": true,
                     "tex_mipmap": true
                 },
                 {
-                    "id": "sky_left",
+                    "id": "__CUBEMAP_RADIANCE",
                     "ou3d": false,
                     "reverse3d": false,
                     "sbs3d": false,
-                    "src": "https://simsora13.github.io/janusvr/pictures/Background1.png",
-                    "tex_clamp": true,
-                    "tex_compress": false,
-                    "tex_linear": true,
-                    "tex_mipmap": true
-                },
-                {
-                    "id": "__CUBEMAP_IRRADIANCE",
-                    "ou3d": false,
-                    "reverse3d": false,
-                    "sbs3d": false,
-                    "src": "./7129027704126752994_cubemap_irradiance64.dds",
+                    "src": "./7129027704126752994_cubemap_radiance256.dds",
                     "tex_clamp": true,
                     "tex_compress": false,
                     "tex_linear": true,
@@ -100,14 +95,51 @@
                     "tex_compress": false,
                     "tex_linear": true,
                     "tex_mipmap": true
+                },
+                {
+                    "id": "sky_left",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "https://simsora13.github.io/janusvr/pictures/Background1.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                }
+            ],
+            "AssetObject": [
+                {
+                    "id": "fox",
+                    "src": "fox.obj",
+                    "tex": "fox.gif"
+                },
+                {
+                    "id": "foxb",
+                    "src": "foxd.dae"
                 }
             ]
         },
         "Room": {
+            "Ghost": [
+                {
+                    "anim_id": "idle",
+                    "auto_play": true,
+                    "body_id": "foxb",
+                    "head_id": "fox",
+                    "id": "ghostfox",
+                    "js_id": "4",
+                    "pos": "8.18485 0 -0.270456",
+                    "userid_pos": "0 0.5 0",
+                    "xdir": "-0.097853 0 0.995201",
+                    "ydir": "-0.031851 0.999488 -0.003132",
+                    "zdir": "-0.994691 -0.032005 -0.097803"
+                }
+            ],
             "Image": [
                 {
                     "id": "mandala",
-                    "js_id": "4",
+                    "js_id": "5",
                     "pos": "0.6 0 1",
                     "scale": "10 10 0.1",
                     "xdir": "1 -0.000002 -0.000001",
@@ -117,18 +149,18 @@
             ],
             "Link": [
                 {
-                    "col": "#865887",
+                    "col": "#99ff99",
                     "js_id": "1",
-                    "pos": "-5.3 0 6.3",
-                    "scale": "2 3 1",
-                    "thumb_id": "the digital Club",
-                    "url": "https://simsora13.github.io/janusvr/room/the digital Club/index.html",
-                    "xdir": "-0.707106 0 -0.707107",
-                    "zdir": "0.707107 0 -0.707106"
+                    "pos": "5.8 0 6.4",
+                    "scale": "1.8 3.2 1",
+                    "thumb_id": "mypark",
+                    "url": "https://simsora13.github.io/janusvr/room/mypark/index.html",
+                    "xdir": "-0.766043 0 0.642789",
+                    "zdir": "-0.642789 0 -0.766043"
                 },
                 {
                     "col": "#b3b3b3",
-                    "js_id": "3",
+                    "js_id": "2",
                     "pos": "2 0 8",
                     "scale": "1.8 3.2 1",
                     "thumb_id": "benhouse",
@@ -137,14 +169,14 @@
                     "zdir": "-0.17365 0 -0.984807"
                 },
                 {
-                    "col": "#99ff99",
-                    "js_id": "2",
-                    "pos": "5.8 0 6.4",
-                    "scale": "1.8 3.2 1",
-                    "thumb_id": "mypark",
-                    "url": "https://simsora13.github.io/janusvr/room/mypark/index.html",
-                    "xdir": "-0.766043 0 0.642789",
-                    "zdir": "-0.642789 0 -0.766043"
+                    "col": "#865887",
+                    "js_id": "3",
+                    "pos": "-5.3 0 6.3",
+                    "scale": "2 3 1",
+                    "thumb_id": "the digital Club",
+                    "url": "https://simsora13.github.io/janusvr/room/the digital Club/index.html",
+                    "xdir": "-0.707106 0 -0.707107",
+                    "zdir": "0.707107 0 -0.707106"
                 },
                 {
                     "col": "#99ff99",
