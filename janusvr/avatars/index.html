@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><body>
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/aframe-altspace-component/v0.3.0/dist/aframe-altspace-component.min.js"></script>
+<!--  <script src="dist/aframe-obj-loader-component.js"> </script> -->
+
+<!-- set up the scene -->
+<a-scene altspace='vertical-align: bottom;'>
+
+    <!-- preload all our textures sdfsf -->
+    <a-assets>
+        <img id="moon" src="assets/elite02.jpg"/>
+        <img id="test" src="assets/elite02.jpg"/>
+        <img id='stars' src='assets/stars.jpg'/>
+        <a-asset-item id="elite" src="3D/Obj/elite03.obj"/>
+        <a-asset-item id="material" src="3D/Obj/elite03.mtl"/>
+        <!-- Town Import-->
+        <a-asset-item id="Town_Mesh" src="Town.obj"/>
+        <a-asset-item id="Town_Texture" src="Town.mtl"/>
+    </a-assets>
+
+    <!-- add the moon to the scene-->
+    <a-obj-model src='#elite' material='#material;' position="2 0 -2"></a-obj-model>
+    <a-entity obj-model="obj: #elite; mtl: #material"></a-entity>
+    <a-entity obj-model="obj: #Town_Mesh; mtl: #Town_Texture"></a-entity>
+
+    <a-sphere position='0 1.5 3' material='src: #moon;'>
+        <a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
+    </a-sphere>
+
+    <a-sphere position='0 1.5 -3' material='src: #moon;'>
+        <a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
+    </a-sphere>
+
+    <!-- add the backdrop of stars -->
+    <a-sky src='#stars' radius='2500'></a-sky>
+
+    <!-- add a view camera (2d only) -->
+    <a-entity position='0 0 2'>
+        <a-camera></a-camera>
+    </a-entity>
+
+</a-scene>
+
+</body></html>
