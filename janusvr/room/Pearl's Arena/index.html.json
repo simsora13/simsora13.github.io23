@@ -1,0 +1,60 @@
+{
+    "FireBoxRoom": {
+        "Assets": {
+            "AssetImage": [
+                {
+                    "id": "thumb12",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "file:///C:/Users/Ben/Documents/janusvr/workspaces/20170124012343/thumb.jpg",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                }
+            ],
+            "AssetObject": [
+                {
+                    "id": "Cloud.001",
+                    "mtl": "Cloud.001.mtl",
+                    "src": "Cloud.001.obj"
+                },
+                {
+                    "id": "Plane.008",
+                    "mtl": "Plane.008.mtl",
+                    "src": "Plane.008.obj"
+                }
+            ]
+        },
+        "Room": {
+            "Object": [
+                {
+                    "collision_id": "Cloud.001",
+                    "id": "Cloud.001",
+                    "js_id": "0",
+                    "pos": "-14 1 -13.6"
+                },
+                {
+                    "collision_id": "Plane.008",
+                    "id": "Plane.008",
+                    "js_id": "1",
+                    "lighting": false,
+                    "pos": "-6 1 17.200001"
+                }
+            ],
+            "fog_col": "#cccccc",
+            "fog_density": 0.20000000298023224,
+            "fog_end": 100,
+            "fog_start": 1,
+            "near_dist": 0.0024999999441206455,
+            "pos": "0 0 0",
+            "teleport_min_dist": 5,
+            "use_local_asset": "room_plane",
+            "visible": false,
+            "xdir": "1 0 0",
+            "ydir": "0 1 0",
+            "zdir": "0 0 1"
+        }
+    }
+}
