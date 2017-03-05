@@ -1,0 +1,29 @@
+{
+    "FireBoxRoom": {
+        "Assets": {
+            "AssetObject": [
+                {
+                    "id": "fox_room",
+                    "src": "fox_roomfoxs.dae"
+                }
+            ]
+        },
+        "Room": {
+            "Object": [
+                {
+                    "Draw_Layer": 0,
+                    "collision_id": "fox_room",
+                    "id": "fox_room",
+                    "js_id": "simsora-1-1488693861",
+                    "lighting": false,
+                    "ydir": "0 1 0.000001",
+                    "zdir": "0 -0.000001 1"
+                }
+            ],
+            "pos": "0 0 0",
+            "xdir": "1 0 0",
+            "ydir": "0 1 0",
+            "zdir": "0 0 1"
+        }
+    }
+}
