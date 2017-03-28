@@ -1,0 +1,38 @@
+{
+    "FireBoxRoom": {
+        "Assets": {
+            "AssetObject": [
+                {
+                    "id": "Plane_022_Plane_061_Plane.022_Plane.061",
+                    "mtl": "Plane_022_Plane_061_Plane.022_Plane.061.mtl",
+                    "src": "Plane_022_Plane_061_Plane.022_Plane.061.obj"
+                }
+            ]
+        },
+        "Room": {
+            "Object": [
+                {
+                    "Draw_Layer": 0,
+                    "collision_id": "Plane_022_Plane_061_Plane.022_Plane.061",
+                    "id": "Plane_022_Plane_061_Plane.022_Plane.061",
+                    "js_id": "0",
+                    "lighting": false,
+                    "pos": "0 0 20"
+                }
+            ],
+            "far_dist": 500,
+            "fog_col": "#cccccc",
+            "fog_density": 0.20000000298023224,
+            "fog_end": 100,
+            "fog_start": 1,
+            "near_dist": 0.0024999999441206455,
+            "pos": "0 0 0",
+            "teleport_min_dist": 5,
+            "use_local_asset": "room_plane",
+            "visible": false,
+            "xdir": "1 0 0",
+            "ydir": "0 1 0",
+            "zdir": "0 0 1"
+        }
+    }
+}
